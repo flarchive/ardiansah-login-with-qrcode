@@ -1,0 +1,38 @@
+{
+    "name": "ardiansah/login-with-qrcode",
+    "description": "extension flarum for login with QR Code",
+    "version": "0.0.1-beta",
+    "keywords": [
+        "flarum"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^0.1.0-beta.8"
+    },
+    "authors": [
+        {
+            "name": "ardiansah",
+            "email": "email.ardi21@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ardiansah\\LoginWithQRcode\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Login With QR Code",
+            "icon": {
+                "name": "",
+                "backgroundColor": "",
+                "color": ""
+            }
+        },
+        "flagrow": {
+            "discuss": ""
+        }
+    }
+}
